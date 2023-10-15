@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Creating a single page website</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Chhaya Chaudhary
+          <div class="contact_info">
+            <img src="envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          chhayachy618@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +91 7488291388
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#Skills">Skills</a>
+          <a class="topmenu" href="#Projects">Projects</a>
+          <a class="topmenu" href="#Recommendations">Recommendations</a>
+          
+
+        </div>
+    </div>    
+    </nav>
+
+    <section id="about-me" class="container">
+      <div>
+        <img src="girl.jpeg" height="400" width="350">
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Chhaya! <img src="hand.png" width="60px"/>
+          </h1>
+          <p>
+            As a recent computer science graduate,I am seeking an entry-level position software development that will 
+            provide me with the opportunity to apply my knowledge and skills to real-world projects. I have a strong 
+            foundation in programming languages such as Java and C++. I am a quick learner, a problem solver, and am 
+            passionate about writing clean, maintainable, and efficient code. I am excited to work with a team of 
+            experienced professionals and contribute to the success of the company.
+        </p>
+      </div>
+    </section>
+
+    <section id="Skills">
+      <h2>Skills:</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+          <div class="skill">
+          <img src="html5.png"/>
+          <h6>HTML</h6>
+          <p>3 year experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="CSS3.png"/>
+            <h6>CSS</h6>
+            <p>3 year experience</p>
+          </div> 
+
+        <div class="skill">
+          <img src="js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>2 month experience</p>
+        </div>  
+
+
+        <div class="skill">
+          <img src="java.png"/>
+          <h6>Java</h6>
+          <p>2 year experience</p>
+        </div>  
+
+
+        <div class="skill">
+          <img src="c.png"/>
+          <h6>C</h6>
+          <p>4 year experience</p>
+        </div>  
+
+
+        <div class="skill">
+          <img src="cpp.png"/>
+          <h6>CPP</h6>
+          <p>3 year experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="python.jpeg"/>
+            <h6>Python</h6>
+            <p>1 month experience</p>
+
+          </div> 
+
+          <div class="skill">
+            <img src="php.png"/>
+            <h6>Php</h6>
+            <p>1 month experience</p>
+          </div>
+
+    </div>
+</section>
+
+
+<section class="projects" id="Projects">
+    <h2>
+        Projects
+    </h2>
+    <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+            <div class="project-card">
+            <h3>Personal Exercise and trainner Provider management system</h3>
+            <ul>
+                <li>Developed project using java swings for managing gym online. </li>
+            </ul>
+        </div>
+          <hr>
+          <div class="project-card">
+            <h3>Simple Interest Calculator</h3>
+            <ul>
+                <li>Developed a simple interest calculator which takes input for Rate of interest,years,amount of money and gives dynmic output in sentence.</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="project-card">
+            <h3>Units Converter</h3>
+            <ul>
+              <li>Created a multi page unit converter which converts tempertaure,distance,weight,simplemath,height and time.</li>
+            </ul>
+          </div>
+        <hr>
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <ul>
+              <li>Created a single page Portfolio website using HTML5, CSS & Javascript</li>
+            </ul>
+          </div>
+    </div>
+</section>
+<div style="clear:both;"></div>
+
+<section id="Recommendations">
+    <h2>Recommendations</h2>
+    <div style="clear:both;"></div>
+    <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+            <span>&#8220;</span>
+            Chhaya demonstrates remarkable intelligence and swiftly comprehends web development concepts, leading to significant time savings. This proficiency allows us to introduce him to advanced concepts valuable for our company.
+            <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+            <span>&#8220;</span>
+            Chhaya possesses not only rapid learning abilities but also exceptional leadership skills. She adeptly balances mentoring a group while simultaneously pursuing relevant subjects that could benefit even our senior developers. 
+            <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+            <span>&#8220;</span>
+            When it comes to experience she's the best ,I, once had worked with him she not only helped me in completeing my work also gave me few tips on how to get the work easily and fastly done.
+            <span>&#8221;</span>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="flex_center">
+        <fieldset>
+            <legend class="introduction">Leave a Recommendation</legend>          
+            <input type="text" placeholder="Name (Optional)"> <br/>
+            <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+            <div class="flex_center">
+                <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+            </div>
+        </fieldset>
+    </div>
+    </section>
+
+    <div class="iconbutton">
+        <a href="#home">
+          <!--Add the code here for the logo to appear and the icon to be actionable-->
+
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+        <img src="images.png/checkmark--outline.svg"/>
+        <h3>Thanks for leaving a recommendation !</h3>
+        <button >Ok</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
